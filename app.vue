@@ -45,6 +45,9 @@ const generatedAt = useState(() => new Date().toISOString())
     <div style="height: 100%">
       <AppBackground />
       <main>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+  Button
+</button>
         <h1>Hello from the edge!</h1>
         <div class="info">
           <div class="block">
